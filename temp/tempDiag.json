@@ -1,0 +1,38 @@
+{
+  "device": {
+    "device_RFID": {
+      "state": true,
+      "version": 0,
+      "autotest": true
+    },
+    "device_TFT": {
+      "state": true
+    },
+    "device_BH1750": {
+      "state": true
+    },
+    "device_BMP280": {
+      "state": true
+    }
+  },
+  "SPIFFS": {
+    "mounted": true,
+    "content": ["index.html", "style.css", "script.js", "wifi_conf.json", "profile.json"]
+  },
+  "web": {
+    "wifi": {
+      "state": true,
+      "connected": true,
+      "address": "0.0.0.0",
+      "SSID": "SSID",
+      "password": "password"
+    },
+    "server": {
+      "state": true,
+      "port": 80
+    }
+  },
+  "auth": {
+    "state": true
+  }
+}
